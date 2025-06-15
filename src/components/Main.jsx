@@ -1,6 +1,7 @@
 import React from 'react';
-import Header from './header';
+
 import Technologies from './Technologies';
+import Header from './Header';
 
 const Main = ({ contactref, projectref, experienceref }) => {
   return (
