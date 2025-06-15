@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Jsw from './jsw';
+import Jsw from './Jsw';
 import Matrimony from './Matrimony';
 
 const Experience = () => {
