@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import Main from './components/Main';
-import Contactme from './components/contactme';
+import Contactme from './components/Contactme';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
 
