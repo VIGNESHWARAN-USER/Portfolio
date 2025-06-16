@@ -1,9 +1,5 @@
 import React, { useState } from 'react';
-import leetcode from "../assets/leetcode.png";
-import linkedin from "../assets/linkedin.png";
-import github from "../assets/github.png";
-import gfg from "../assets/gfg.png";
-import hackerrank from "../assets/hackerrank.png"
+
 
 const Contactme = () => {
 
@@ -48,24 +44,7 @@ const Contactme = () => {
 
         <div className="flex flex-col md:items-start md:absolute md:top-28 md:right-44 w-full max-w-md md:max-w-lg mx-auto md:mx-0">
           {/* Social Links */}
-          <div className="flex justify-center md:justify-start gap-6 mb-8">
-            <p className='flex items-center'>CHECKOUT ME ON:</p>
-            <a href="https://leetcode.com/u/VIGNESHWARAN-M" target="_blank" rel="noopener noreferrer">
-              <img src={leetcode} alt="leetcode" className="w-10 sm:w-12 bg-white/20 backdrop-blur-xl rounded-lg p-2" />
-            </a>
-            <a href="https://www.geeksforgeeks.org/user/vigneshwai7zj" target="_blank" rel="noopener noreferrer">
-              <img src={gfg} alt="gfg" className="w-10 sm:w-12 bg-white/20 backdrop-blur-xl rounded-lg p-2" />
-            </a>
-            <a href="https://www.hackerrank.com/profile/vigneshwaran_co2" target="_blank" rel="noopener noreferrer">
-              <img src={hackerrank} alt="hackerrank" className="w-10 sm:w-12 bg-white/20 backdrop-blur-xl rounded-lg p-2" />
-            </a>
-            <a href="https://github.com/VIGNESHWARAN-USER" target="_blank" rel="noopener noreferrer">
-              <img src={github} alt="github" className="w-10 sm:w-12 bg-white/20 backdrop-blur-xl rounded-lg p-2" />
-            </a>
-            <a href="https://www.linkedin.com/in/vigneshwaran-developer" target="_blank" rel="noopener noreferrer">
-              <img src={linkedin} alt="linkedin" className="w-10 sm:w-12 bg-white/20 backdrop-blur-xl rounded-lg p-2" />
-            </a>
-          </div>
+         
 
           
           {/* Form Fields */}

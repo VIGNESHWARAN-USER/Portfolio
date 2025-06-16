@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import cv from "../assets/cv.pdf";
 import { Menu, X } from 'lucide-react'; // Lucide icons for hamburger and close
 
-const Header = ({ contactref, projectref, experienceref }) => {
+const Header = ({ contactref, projectref, experienceref, aboutref }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const scrollToSection = (ref) => {
@@ -17,6 +17,9 @@ const Header = ({ contactref, projectref, experienceref }) => {
 
       {/* Desktop Nav */}
       <nav className="hidden md:flex gap-10 items-center">
+        <button onClick={() => scrollToSection(aboutref)} className="hover:bg-white hover:text-[#0d1117] px-4 py-2 rounded-xl transition-all">
+          About
+        </button>
         <button onClick={() => scrollToSection(projectref)} className="hover:bg-white hover:text-[#0d1117] px-4 py-2 rounded-xl transition-all">
           Projects
         </button>

@@ -3,13 +3,14 @@ import React from 'react';
 import Technologies from './Technologies';
 import Header from './Header';
 
-const Main = ({ contactref, projectref, experienceref }) => {
+const Main = ({ contactref, projectref, experienceref, aboutref }) => {
   return (
     <div>
       <Header
         contactref={contactref}
         projectref={projectref}
         experienceref={experienceref}
+        aboutref = {aboutref}
       />
       <div className="flex flex-col items-center justify-center px-4 sm:px-8">
         <p className="text-white pt-8 text-xl sm:text-2xl md:text-3xl text-center">

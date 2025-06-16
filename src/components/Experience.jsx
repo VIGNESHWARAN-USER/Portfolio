@@ -16,7 +16,7 @@ const Experience = () => {
 
   return (
     <div className="relative py-12 px-4 sm:px-6 md:px-24 min-h-screen bg-[#0e1116] overflow-hidden">
-      <h1 className="text-[#C9D1D9] font-bold text-[32px] sm:text-[40px] md:text-[60px] mb-12 text-center">
+      <h1 className="text-[#C9D1D9] font-bold text-[32px] sm:text-[40px] md:text-[60px] mb-12 ">
         Experiences and Achievements
       </h1>
 
