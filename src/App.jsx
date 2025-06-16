@@ -17,15 +17,15 @@ function App() {
         experienceref={experienceref} 
       />
 
-      <section ref={experienceref} className="px-4 sm:px-8 md:px-16 lg:px-24">
+      <section ref={experienceref} >
         <Experience />
       </section>
 
-      <section ref={projectref} className="px-4 sm:px-8 md:px-16 lg:px-24">
+      <section ref={projectref} >
         <Projects />
       </section>
 
-      <section ref={contactref} className="px-4 sm:px-8 md:px-16 lg:px-24 pb-10">
+      <section ref={contactref}>
         <Contactme />
       </section>
     </div>

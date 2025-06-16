@@ -26,8 +26,8 @@ const Experience = () => {
 
       {/* Carousel */}
       <div className="relative w-full max-w-4xl mx-auto z-10">
-        <div className="relative h-[300px] sm:h-[350px] md:h-[450px] overflow-hidden rounded-lg transition-all duration-700 ease-in-out">
-          <div className="w-full h-full">{components[currentSlide]}</div>
+        <div className="relative overflow-hidden rounded-lg transition-all duration-700 ease-in-out">
+          <div>{components[currentSlide]}</div>
         </div>
 
         {/* Dots */}

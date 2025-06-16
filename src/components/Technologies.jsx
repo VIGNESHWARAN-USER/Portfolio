@@ -14,7 +14,7 @@ const techStack = [reactlogo, node, express, django, springboot, tailwind, strea
 
 const Technologies = () => {
   return (
-    <div className="overflow-hidden relative bg-[#0d1117] py-10 px-4 sm:px-8">
+    <div className="overflow-hidden relative bg-[#0d1117] py-10 lg:mx-96 px-4 sm:px-8">
       <div className="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_64px,_black_calc(100%-64px),transparent_100%)]">
         <div className="flex animate-infinite-scroll gap-8 sm:gap-12">
           {[...techStack, ...techStack].map((logo, index) => (
