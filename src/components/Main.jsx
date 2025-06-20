@@ -28,7 +28,7 @@ const Main = ({ contactref, projectref, experienceref, aboutref }) => {
           <span className="text-[#B75C0C]">&gt;</span>
         </p>
 
-        <div className="my-10 sm:my-16 text-white flex flex-col sm:flex-row items-center gap-4 sm:gap-8">
+        <div className="mt-10 mb-8 sm:mt-16 sm:mb-10 text-white flex flex-col sm:flex-row items-center gap-4 sm:gap-8">
           <hr className="h-0.5 w-32 sm:w-52 bg-white" />
           <p className="font-meddon text-base sm:text-lg md:text-xl text-center">
             Final&nbsp;&nbsp;Year&nbsp;&nbsp;Student

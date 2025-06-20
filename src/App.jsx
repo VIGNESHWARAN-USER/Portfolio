@@ -4,7 +4,6 @@ import Contactme from './components/Contactme';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Aboutme from './components/Aboutme';
-import AnimatedSection from './components/AnimatedSection'; // ✅ Import this
 
 function App() {
   const contactref = useRef(null);
@@ -22,27 +21,19 @@ function App() {
       />
 
       <div ref={aboutref}>
-        <AnimatedSection>
           <Aboutme />
-        </AnimatedSection>
       </div>
 
       <div ref={experienceref}>
-        <AnimatedSection>
           <Experience />
-        </AnimatedSection>
       </div>
 
       <div ref={projectref}>
-        <AnimatedSection>
           <Projects />
-        </AnimatedSection>
       </div>
 
       <div ref={contactref}>
-        <AnimatedSection>
           <Contactme />
-        </AnimatedSection>
       </div>
     </div>
   );

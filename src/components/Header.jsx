@@ -11,7 +11,7 @@ const Header = ({ contactref, projectref, experienceref, aboutref }) => {
   };
 
   return (
-    <header className="bg-[#0d1117] text-white px-4 sm:px-8 md:px-24 py-6 flex items-center justify-between relative z-50">
+    <header className="bg-[#0d1117] mt-8 text-white px-4 sm:px-8 md:px-24 py-6 flex items-center justify-between relative z-50">
       {/* Logo or Title */}
       <h1 className="text-lg font-semibold">VIGNESHWARAN</h1>
 
