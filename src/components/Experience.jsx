@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import Jsw from './Jsw';
 import Matrimony from './Matrimony';
+import DisciplineStar from './DiciplineStar';
 
 const Experience = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const components = [<Jsw />, <Matrimony />];
+  const components = [<Jsw />, <Matrimony />, <DisciplineStar/>];
 
   const prevSlide = () => {
     setCurrentSlide((prev) => (prev === 0 ? components.length - 1 : prev - 1));
