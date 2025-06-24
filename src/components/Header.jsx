@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import cv from "../assets/cv.pdf";
+import cv from "../assets/Vigneshwaran Resume.pdf";
 import { Menu, X } from 'lucide-react'; // Lucide icons for hamburger and close
 
 const Header = ({ contactref, projectref, experienceref, aboutref }) => {
