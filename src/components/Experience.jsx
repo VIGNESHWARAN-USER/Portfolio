@@ -2,10 +2,13 @@ import React, { useState } from 'react';
 import Jsw from './Jsw';
 import Matrimony from './Matrimony';
 import DisciplineStar from './DiciplineStar';
+import MeritScholar from './MeritScholar';
+import Achiever1 from './Achiever1';
+import Achiever2 from './Achiever2';
 
 const Experience = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const components = [<Jsw />, <Matrimony />, <DisciplineStar/>];
+  const components = [<Jsw />, <Matrimony />, <DisciplineStar/>, <MeritScholar/>, <Achiever1/>, <Achiever2/>];
 
   const prevSlide = () => {
     setCurrentSlide((prev) => (prev === 0 ? components.length - 1 : prev - 1));
@@ -16,7 +19,7 @@ const Experience = () => {
   };
 
   return (
-    <div className="relative py-12 px-4 sm:px-6 md:px-24 min-h-screen bg-[#0e1116] overflow-hidden">
+    <div className="relative py-12 px-4 sm:px-6 md:px-24 h-screen bg-[#0e1116] overflow-hidden">
       <h1 className="text-[#C9D1D9] font-bold text-[32px] sm:text-[40px] md:text-[60px] mb-12 ">
         Experiences and Achievements
       </h1>

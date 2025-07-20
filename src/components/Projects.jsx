@@ -2,6 +2,8 @@ import React from 'react'
 import cect from "../assets/cect.png"
 import jsw from "../assets/jsw.png"
 import matrimony from "../assets/matrimony.png"
+import moodle from "../assets/Moodle.png"
+import placement from "../assets/placementportal.png"
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'
 
 const ProjectCard = ({ img, title, description, github, demo, tech }) => {
@@ -74,7 +76,7 @@ const Projects = () => {
       <ProjectCard
         github="https://github.com/VIGNESHWARAN-USER/Matrimony-v2.0"
         demo="https://chennaisiddhaviddhai.com/"
-        tech={["React", "Springboot", "MongoDB"]}
+        tech={["React", "Node", "MongoDB"]}
         img={matrimony}
         title="Matrimony Site"
         description="Matrimonial Portal for Chennai Siddha Vidya Nilayam Trust is a custom-built web application designed to support matrimonial alliances within the trust’s community. The platform allows users to register and search for suitable matches among the approved members. Admin login ensures that all user profiles are reviewed and verified before going live. The site also includes a donation page and a landing section introducing the trust's vision and values."
@@ -87,6 +89,24 @@ const Projects = () => {
         img={cect}
         title="CECT Portal"
         description="Credit Equivalence and Credit Transfer (CECT) Portal is a multi-login web application developed for intra-college use to manage credit transfers for students taking external courses like NPTEL. It supports different user roles—Student, Course Advisor (CA), Head of Department (HOD), CDDA, and Admin—each with specific access and responsibilities. This system ensures a streamlined, transparent, and efficient credit validation process."
+      />
+
+      <ProjectCard
+        github="https://github.com/VIGNESHWARAN-USER/Moodle-Springboot"
+        demo=""
+        tech={["React", "Springboot", "MongoDB"]}
+        img={moodle}
+        title="Moodle"
+        description="Learning Management Portal is a multi-login web application inspired by the Moodle classroom system, developed with additional features tailored to client-specific requirements. The platform supports Admin, Faculty, and Student roles. Admins can onboard faculty members, enabling them to log in and upload subject-specific notes and learning materials. Students can access these resources seamlessly, enhancing their academic experience. A key feature is faculty insight into student engagement, allowing them to track note impressions and interactions. This system offers a modern, scalable solution for digital learning within the institution."
+      />
+
+      <ProjectCard
+        github="https://github.com/VIGNESHWARAN-USER/Placement-Portal"
+        demo=""
+        tech={["React", "Node", "MongoDB"]}
+        img={placement}
+        title="Placement Portal"
+        description="Placement Portal is a multi-login web application designed for managing campus recruitment activities efficiently. It features dedicated access for both Students and Admin, with the Admin empowered to post details of current and upcoming company drives, manage student access, and monitor participation. Students can view company listings, track upcoming opportunities, and stay informed about placement activities. The portal also includes performance analytics—both individual and group-wise—to provide insights into student engagement and outcomes in recruitment processes. This system ensures a centralized, transparent, and organized approach to college placements."
       />
     </div>
   )
