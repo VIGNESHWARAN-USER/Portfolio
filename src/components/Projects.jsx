@@ -3,7 +3,7 @@ import cect from "../assets/cect.png"
 import jsw from "../assets/jsw.png"
 import matrimony from "../assets/matrimony.png"
 import moodle from "../assets/Moodle.png"
-import placement from "../assets/placementportal.png"
+import placement from "../assets/placementPortal.png"
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'
 
 const ProjectCard = ({ img, title, description, github, demo, tech }) => {
